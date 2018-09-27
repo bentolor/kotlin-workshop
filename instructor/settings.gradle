@@ -1,0 +1,5 @@
+rootProject.name = 'instructor'
+include 'introduction'
+include 'advanced'
+include 'quizzes'
+

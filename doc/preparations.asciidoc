@@ -1,0 +1,34 @@
+= eXXcellent Kotlin Workshop: How to prepare?
+Benjamin Schmid <benjamin.schmid@exxcellent.de>
+:experimental:
+
+This documents briefly explains the prerequisites and how to prepare for the Kotlin workshop.
+
+== Overview of prerequisites
+
+You should bring along the following things to our joyfully workshop
+
+* A laptop prepared as described below
+* good mood
+
+If you don't have a laptop at hand, please voice up as soon as you can, so
+that we can provide one for you in advance.
+
+=== Laptop preparation
+
+Please prepare your computing device so that you are:
+
+* able to access _„The Internet“_ during the course (read: have access to the local WiFi)
+* Have a Java 1.8 JDK installed and set as default in the path
+** Hammering `java -version` into your console spills some 1.8 JDK output
+** `JAVA_HOME` points to the installation location
+* able to run and use IntelliJ IDEA (Ultimate) 2018.2.3+
+** with the additional Plugin *EduTools* installed. Select _"Learner"_ when asked
+** have the Java JDK 1.8 registered within your IDEA installation, so that it shows up as SDK "1.8" in IDEA
+* can clone a Git repository
+** Entering `git --version` on the command-line should return sth. like `git version 2.17.1`
+
+=== Installing IDEA Plugins
+To install the _EduTools_ plugin press kbd:[Ctrl+Alt+S] then _Plugins >  Install JetBrains plugin…_. Then select "Learner".
+
+For link:https://www.jetbrains.com/help/education/install-edutools-plugin.html[detailled instructions follow this link].

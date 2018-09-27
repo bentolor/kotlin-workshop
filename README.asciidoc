@@ -1,0 +1,24 @@
+= eXXcellent Kotlin Workshop
+
+This is a 1-day workshop on Kotlin aimed at Java developers with a german
+slideset. Much content is borrowed from the
+
+* JetBrains link:https://github.com/Kotlin/kotlin-koans[Kotlin Koans]
+* JetBrains link:https://github.com/JetBrains/kotlin-workshop[Workshop Materials] (Quizzes)
+
+== Contents
+
+1. A HTML5 RevealJS based slideset for the whole day. See `slides/index.html`
+2. An intructor-set of Templates files, see `instructor/introduction`
+3. A EduTools based variant of the Kotlin Koans, see `student`.
+4. A introduction paper and three quizzes borrowed from JetBrains
+
+== Workshop Flow
+
+1. General Introduction to Kotlin based on Slides
+2. Live-coding by the instruction (use `instructor` as base)
+3. Hands-on by the students by a EduTools Lection
+4. While some of your participant are still coding/hands-on, hand out quizzes
+   for the fast ones
+5. Discuss the quiz result in public
+6. Rinse & Repeat: Go back to #1
