@@ -1,34 +1,81 @@
-= eXXcellent Kotlin Workshop: How to prepare?
+= Kotlin für Java Entwickler
+Workshop auf dem Herbstcampus 2019
 Benjamin Schmid <benjamin.schmid@exxcellent.de>
 :experimental:
+:icons: font
 
-This documents briefly explains the prerequisites and how to prepare for the Kotlin workshop.
+Dieses Dokument erläutert kurz, welche technischen Vorraussetzungen ihr für den
+Herbstcampus 2019 Workshop _„Kotlin für Java Entwickler Workshop“_ mitbringen müsst
+und wie ihr Euch vorbereiten solltet.
 
-== Overview of prerequisites
+== Übersicht
+Bitte bringt Folgendes zu unserem Workshop mit, damit wir gemeinsam einen erfolgreichen,
+interessanten und angenehmen Workshop-Tag haben!
 
-You should bring along the following things to our joyfully workshop
+* Einen Laptop – wie unten beschrieben vorbereitet
+* viel Interesse und gute icon:heart[color=ff0000] Laune!
 
-* A laptop prepared as described below
-* good mood
 
-If you don't have a laptop at hand, please voice up as soon as you can, so
-that we can provide one for you in advance.
+== Vorbereitung des Laptops
 
-=== Laptop preparation
+Bitte richtet Euer _Computing Device_ so ein, dass Ihr
 
-Please prepare your computing device so that you are:
+1. *Zugriff auf _„Das Internet“_ während unseres Workshop habt.* +
+(_Lies als:_ Ihr könnt das lokale Herbstcampus WiFi nutzen und auf externe Web-Adressen
+zugreifen)
 
-* able to access _„The Internet“_ during the course (read: have access to the local WiFi)
-* Have a Java 1.8 JDK installed and set as default in the path
-** Hammering `java -version` into your console spills some 1.8 JDK output
-** `JAVA_HOME` points to the installation location
-* able to run and use IntelliJ IDEA (Ultimate) 2018.2.3+
-** with the additional Plugin *EduTools* installed. Select _"Learner"_ when asked
-** have the Java JDK 1.8 registered within your IDEA installation, so that it shows up as SDK "1.8" in IDEA
-* can clone a Git repository
-** Entering `git --version` on the command-line should return sth. like `git version 2.17.1`
+2. *Ein installiertes und lauffähiges Java 8 oder Java 11 JDK habt.* +
+Am besten nutzt ihr dazu eine der LTS-Varianten von https://adoptopenjdk.net/, welche
+von der Community länger gepflegt wird.
+** Wenn ihr `java -version` in Eure Konsole (_„Eingabeaufforderung“_) hackt, sollte
+eine Java 1.8 oder 11 Ausgabe erscheinen (z.Bb: `openjdk version "11.0.3" 2019-04-16`)
+** Die Umgebungsvariable `JAVA_HOME` sollte auf das Installationsverzeichnis zeigen
 
-=== Installing IDEA Plugins
-To install the _EduTools_ plugin press kbd:[Ctrl+Alt+S] then _Plugins >  Install JetBrains plugin…_. Then select "Learner".
+3. *Ihr könnt IntelliJ IDEA (Community oder Ultimate) in der neuesten Version nutzen
+und starten.* +
+Am Besten empfiehlt sich dazu die Installation über die https://www.jetbrains.com/toolbox/app/[
+Jetbrains Toolbox App (https://www.jetbrains.com/toolbox/app/)] mit der ihr sehr komfortabel
+die verschiedenen Versionen installieren oder Updaten könnt
+** dort das zusätzliche Plugin *EduTools* installieren. Wählt _"Learner"_ aus wenn ihr
+beim Start gefragt werdet. Hinweise zu Installation siehe unten.
+** das Plugin **Kotlin** ist aktiviert (kommt mit IntelliJ mit)
+** Ihr habt Euer Java JDK in euer IDEA Installation registriert, so das es als SDK "1.8"
+oder "11" in IDEA auftaucht. Dazu auf dem Startbildschirm unten rechts _Configure > Structure
+for New Projects_, dort könnt ihr ggf. unter _Platform Settings_ unter dem Knoten _SDKs_
+mit dem kbd:[+]-Symbol das JDK aufnehmen
++
+CAUTION: Achtung: Falls ihr in eurer Firma IntelliJ Ultimate in Kombination mit einem _Licence
+Server_ nutzt, bedenkt bitte dass ihr ohne VPN-Zugriff diese nicht nutzen könnt. Einmal gestartet,
+läuft Ultimate in der Regel aber mehr als 24h auch offline. Sicherheitshalber installiert besser
+daher also zusätzlich die Community-Variante.
 
-For link:https://www.jetbrains.com/help/education/install-edutools-plugin.html[detailled instructions follow this link].
+4. *Ihr könnt ein Git-Repository clonen* (Optional) +
+** Die Eingabe von `git --version` auf der Kommandozeile meldet etwas in der Form wie
+`git version 2.22.0`
+
+=== Eventuelle Fallstricke
+Die Erfahrungen des Herbstcampus-Teams aus der Vergangenheit zeigten ein paar typische Fallstricke
+beim Einsatz von mitgebrachten Laptops. Daher hier noch ein paar ergänzenden Hinweise:
+
+Falls Ihr ein Gerät Eurer Firma verwenden, überprüft vorher bitte, ob eines der folgenden,
+gelegentlich vorkommenden Probleme auftreten könnte_
+
+- Workshop-Teilnehmer haben keine Administrator-Rechte.
+- Corporate Laptops mit übermäßig penibler Sicherheitssoftware
+- Gesetzte Corporate-Proxies, über die man in der Firma kommunizieren muss, die aber in einer
+  anderen Umgebung entsprechend nicht erreicht werden.
+
+
+== Installation der IntelliJ Plugins
+
+.EduTools Plugin
+Um das _EduTools_ plugin z installieren drückt kbd:[Ctrl+Alt+S] dann _Plugins >  Install JetBrains
+plugin…_. Dann wählt als Option _Learner_ wenn ihr gefragt werdet.
+
+Eine ausführliche Anleitung zur Installation der EduTools findet ihr unter diesem Link:
+https://www.jetbrains.com/help/education/install-edutools-plugin.html.
+
+.Kotlin Plugin
+Kotlin sollte standardmässig in IntelliJ IDEA installiert und aktiviert sein. Ihr könnt das an
+der gleichen Stelle wir für das EduTools Plugin überprüfen: Dort solltet ihr Kotlin als Plugin
+finden und mit einem Haken aktiviert sehen.
