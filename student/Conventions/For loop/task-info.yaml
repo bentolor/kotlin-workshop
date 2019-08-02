@@ -1,0 +1,14 @@
+type: edu
+files:
+- name: src/Task.kt
+  visible: true
+  placeholders:
+  - offset: 0
+    length: 439
+    placeholder_text: 'class DateRange(val start: MyDate, val end: MyDate)'
+- name: src/MyDate.kt
+  visible: true
+- name: test/tests.kt
+  visible: false
+- name: src/DateUtil.kt
+  visible: true

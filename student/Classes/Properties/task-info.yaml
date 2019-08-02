@@ -1,0 +1,10 @@
+type: edu
+files:
+- name: src/Task.kt
+  visible: true
+  placeholders:
+  - offset: 92
+    length: 24
+    placeholder_text: override setter behavior
+- name: test/Tests.kt
+  visible: false
