@@ -1,0 +1,17 @@
+type: edu
+files:
+- name: src/Task.kt
+  visible: true
+  placeholders:
+  - offset: 117
+    length: 15
+    placeholder_text: use destructuring declaration
+  - offset: 135
+    length: 178
+    placeholder_text: 'Use a when expression. '
+- name: test/Tests.kt
+  visible: false
+- name: src/WeatherIndicatorJava.java
+  visible: true
+- name: src/WeatherSign.kt
+  visible: true

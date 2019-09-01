@@ -1,0 +1,10 @@
+type: edu
+files:
+- name: src/Task.kt
+  visible: true
+  placeholders:
+  - offset: 48
+    length: 85
+    placeholder_text: return a mutated input list with an additonal appended 42
+- name: test/Tests.kt
+  visible: false

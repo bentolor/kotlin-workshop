@@ -1,0 +1,17 @@
+type: edu
+files:
+- name: src/Task.kt
+  visible: true
+  placeholders:
+  - offset: 0
+    length: 5
+    placeholder_text: ""
+  - offset: 58
+    length: 5
+    placeholder_text: ""
+  - offset: 154
+    length: 142
+    placeholder_text: implement a Square which is a Rectangle with updated describeMe()
+      and added r/o length property
+- name: test/Tests.kt
+  visible: false

@@ -1,0 +1,13 @@
+type: edu
+files:
+- name: src/Task.kt
+  visible: true
+  placeholders:
+  - offset: 80
+    length: 13
+    placeholder_text: iterate over the elements
+  - offset: 105
+    length: 47
+    placeholder_text: prepend element to value
+- name: test/Tests.kt
+  visible: false

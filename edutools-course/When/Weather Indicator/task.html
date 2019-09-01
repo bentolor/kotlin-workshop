@@ -1,0 +1,50 @@
+<html>
+
+<h2>Port to an elegant Kotlin-Version</h2>
+<p>Rewrite the Java Code below
+  to an elegant Kotlin Version in <code>Task.kt</code>
+  <b>using a single expression</b>
+  followed by the predefined <code>sign.show(status, color)</code>
+</p>
+
+<div class="hint">
+    <ul>
+        <li>Use a <a href="https://kotlinlang.org/docs/reference/control-flow.html#when-expression">
+            <code>when</code>-Expression</a></li>
+        <li>You can build a composite, destruturable <code>Pair</code> object using
+            <code>Pair("value1", "value2")</code> or even shorter with
+            the <code>to</code>infix-Function:
+            <pre><code>val pair: Pair&lt;String, String&gt; = "value1" to "value2"
+// shorthand
+val pair2 = "value1" to "value2"
+            </code></pre></li>
+    </ul>
+
+</div>
+
+
+<h3>Java Source code</h3>
+<pre><code data-lang="text/x-java">import java.awt.*;
+
+public class WeatherIndicatorJava {
+
+    void rateWeather(int celsius,
+                     WeatherSign visualizer) {
+        String status;
+        Color color;
+        if (celsius < 5) {
+            status = "Brrrrrr!";
+            color = Color.BLUE;
+        } else if (celsius >= 5 && celsius < 20) {
+            status = "Feels okay";
+            color = Color.ORANGE;
+        } else {
+            status = "Holiday!";
+            color = Color.RED;
+        }
+        visualizer.show(status, color);
+    }
+}
+</code></pre>
+
+</html>

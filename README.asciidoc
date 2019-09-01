@@ -10,8 +10,8 @@ slideset. Much content is borrowed from the
 
 1. A HTML5 RevealJS based slideset for the whole day. See `slides/index.html`
 2. An intructor-set of Templates files, see `instructor/introduction`
-3. A EduTools based variant of the Kotlin Koans, see `student`.
-4. A introduction paper and three quizzes borrowed from JetBrains
+3. A EduTools based _extended_ and reordered variant of the Kotlin Koans, see `edutools-course`.
+4. A introduction paper and three quizzes borrowed from JetBrains see `doc/`
 
 == Workshop Flow
 

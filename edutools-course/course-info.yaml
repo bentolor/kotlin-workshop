@@ -1,0 +1,17 @@
+title: Kotlin for Java-Developers
+language: Englisch
+summary: "Based on the official Kotlin Koans with a few lessions added, this series\
+  \ of  exercises to get you familiar with the Kotlin Syntax. \n\nOfficial Kotlin\
+  \ website – https://kotlinlang.org"
+programming_language: Kotlin
+content:
+- Basics
+- Classes
+- When
+- Lambda
+- Security
+- Collections
+- Advanced Properties
+- Operators
+- Builders
+- Generics
