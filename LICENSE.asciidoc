@@ -4,7 +4,7 @@ Material provided in this repository, including but not limited to
 source code, notes and exercises is &copy; 2017 JetBrains,
 and is provided as-is.
 
-Slides & some examples are &copy; 2018, Benjamin Schmid
+Slides & some examples are &copy; 2018-2019, Benjamin Schmid
 
 image:https://i.creativecommons.org/l/by-sa/4.0/88x31.png[Creative Commons License]
 link:http://creativecommons.org/licenses/by-sa/4.0/[This work is licensed under a
